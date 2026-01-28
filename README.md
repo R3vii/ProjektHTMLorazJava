@@ -80,3 +80,66 @@ Aby uruchomić demo lokalnie:
 ```bash
 # Użyj serwera lokalnego, np. Python:
 python -m http.server 8000
+
+### API
+Główna klasa odpowiedzialna za łamanie i justowanie tekstu
+Konstruktor
+```javascript
+const juster = new TextJustifier();
+```
+Metoda justify(text, options)
+
+Przetwarza tekst zgodnie z podanymi opcjami.
+
+Parametry:
+
+· text (string) - tekst wejściowy do formatowania
+· options (object) - obiekt konfiguracyjny:
+  · width (number) - szerokość linii w pikselach
+  · justify (boolean) - czy justować tekst
+  · hyphenate (boolean) - czy łamać wyrazy
+
+Zwraca: (string) - sformatowany tekst HTML
+
+Metoda getStats(html)
+
+Zwraca statystyki sformatowanego tekstu.
+
+Parametry:
+
+· html (string) - sformatowany tekst HTML
+
+Zwraca: (object) - obiekt ze statystykami:
+
+· words (number) - liczba słów
+· lines (number) - liczba linii
+· hyphens (number) - liczba podziałów wyrazów
+
+💡 Przykłady użycia
+
+Przykład 1: Podstawowe użycie
+
+```javascript
+const juster = new TextJustifier();
+const text = "Przykładowy tekst zawierający bardzo długiewyrazyktórebędąłamane.";
+const options = { width: 400, justify: true, hyphenate: true };
+const result = juster.justify(text, options);
+```
+
+Przykład 2: Bez łamania wyrazów
+
+```javascript
+const result = juster.justify(text, {
+    width: 500,
+    justify: false,
+    hyphenate: false
+});
+```
+
+Przykład 3: Pobieranie statystyk
+
+```javascript
+const formatted = juster.justify(text, options);
+const stats = juster.getStats(formatted);
+console.log(`Słowa: ${stats.words}, Linie: ${stats.lines}, Łamania: ${stats.hyphens}`);
+```

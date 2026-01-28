@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt JavaScript</title>
+    <meta name="description" content="Mechanizm łamania i justowania tekstu w JavaScript">
+
+    <link rel="stylesheet" href="css/projekt_java.css">
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <h1>Łamanie i justowanie tekstu</h1>
+        <p class="subtitle">Projekt JavaScript</p>
+    </header>
+
+    <main>
+
+        <section class="panel">
+            <h2>Ustawienia</h2>
+
+            <label for="text-input">Tekst wejściowy</label>
+            <textarea id="text-input" rows="5">
+Przykładowy tekst zawierający bardzo długiewyrazyktórebędąłamane oraz klasyczne justowanie akapitów.
+            </textarea>
+
+            <div class="controls">
+                <label>
+                    Szerokość linii:
+                    <strong><span id="width-value">500</span> px</strong>
+                </label>
+                <input type="range" id="width-slider" min="1" max="999" value="998">
+
+                <label>
+                    <input type="checkbox" id="hyphenate-toggle" checked>
+                    Łamanie wyrazów
+                </label>
+
+                <label>
+                    <input type="checkbox" id="justify-toggle" checked>
+                    Justowanie
+                </label>
+
+                <div class="buttons">
+                    <button id="process-btn">Przetwórz</button>
+                    <button id="reset-btn">Reset</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <h2>Wynik</h2>
+
+            <div class="stats">
+                <span>Słowa: <strong id="word-count">0</strong></span>
+                <span>Linie: <strong id="line-count">0</strong></span>
+                <span>Łamania: <strong id="hyphen-count">0</strong></span>
+            </div>
+
+            <article id="text-output" class="output" aria-live="polite">
+                Tutaj pojawi się wynik...
+            </article>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        Projekt JavaScript 2026 Oliwer Strzałka
+    </footer>
+
+</div>
+
+<script src="js/justowanie.js"></script>
+<script src="js/projekt_java.js"></script>
+</body>
+</html>

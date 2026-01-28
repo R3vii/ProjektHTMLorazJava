@@ -93,11 +93,11 @@ Przetwarza tekst zgodnie z podanymi opcjami.
 
 Parametry:
 
-· text (string) - tekst wejściowy do formatowania
-· options (object) - obiekt konfiguracyjny:
-  · width (number) - szerokość linii w pikselach
-  · justify (boolean) - czy justować tekst
-  · hyphenate (boolean) - czy łamać wyrazy
+* `text (string)` - tekst wejściowy do formatowania
+* `options (object)` - obiekt konfiguracyjny:
+* `width (number)` - szerokość linii w pikselach
+* `justify (boolean)` - czy justować tekst
+* `hyphenate (boolean)` - czy łamać wyrazy
 
 Zwraca: (string) - sformatowany tekst HTML
 

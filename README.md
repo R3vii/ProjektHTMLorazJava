@@ -112,10 +112,12 @@ Parametry:
 Zwraca: (object) - obiekt ze statystykami:
 
 · words (number) - liczba słów
+
 · lines (number) - liczba linii
+
 · hyphens (number) - liczba podziałów wyrazów
 
-💡 Przykłady użycia
+## Przykłady użycia
 
 Przykład 1: Podstawowe użycie
 
@@ -143,3 +145,16 @@ const formatted = juster.justify(text, options);
 const stats = juster.getStats(formatted);
 console.log(`Słowa: ${stats.words}, Linie: ${stats.lines}, Łamania: ${stats.hyphens}`);
 ```
+
+## Technologie
+
+· HTML - struktura strony
+· CSS - style i responsywność
+· JavaScript - logika aplikacji
+
+## Autor
+
+Oliwer Strzałka
+Projekt stworzony w ramach realizacji projektu na zaliczenie przedmiotu "Technologie internetowe"
+
+---

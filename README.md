@@ -39,7 +39,7 @@ Strona demonstracyjna umożliwia:
 - włączanie/wyłączanie łamania wyrazów i justowania,
 - podgląd liczby słów, linii i łamań.
 
-[Przejdź do demo](demo.html)
+[Przejdź do demo](projekt_java.html)
 
 ---
 

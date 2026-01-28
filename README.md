@@ -4,7 +4,7 @@ Projekt implementacji mechanizmu łamania i justowania tekstu z podziałem wyraz
 
 ---
 
-## 📋 Spis treści
+## Spis treści
 
 * [O projekcie](#-o-projekcie)
 * [Funkcjonalności](#-funkcjonalności)
@@ -17,7 +17,7 @@ Projekt implementacji mechanizmu łamania i justowania tekstu z podziałem wyraz
 
 ---
 
-## 🎯 O projekcie
+## O projekcie
 
 Projekt prezentuje autorską implementację algorytmu łamania i justowania tekstu. Celem jest stworzenie mechanizmu składu tekstu, który automatycznie dzieli wyrazy i justuje akapity zgodnie z zasadami typografii, bez użycia zewnętrznych bibliotek.
 
@@ -30,7 +30,7 @@ Projekt prezentuje autorską implementację algorytmu łamania i justowania teks
 
 ---
 
-## ✨ Funkcjonalności
+## Funkcjonalności
 
 1.  **Łamanie wyrazów** – automatyczne dzielenie długich słów z użyciem łącznika (-).
 2.  **Justowanie tekstu** – wyrównanie tekstu do obu marginesów.
@@ -42,7 +42,7 @@ Projekt prezentuje autorską implementację algorytmu łamania i justowania teks
 
 ---
 
-## 🚀 Instalacja i użycie
+## Instalacja i użycie
 
 ### Szybkie rozpoczęcie
 

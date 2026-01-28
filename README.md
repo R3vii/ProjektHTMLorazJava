@@ -6,7 +6,7 @@ Projekt implementacji mechanizmu łamania i justowania tekstu z podziałem wyraz
 
 ## 📋 Spis treści
 
-* [O projekcie](#-o projekcie)
+* [O projekcie](#-o-projekcie)
 * [Funkcjonalności](#-funkcjonalności)
 * [Instalacja i użycie](#-instalacja-i-użycie)
 * [Struktura projektu](#-struktura-projektu)

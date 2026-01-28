@@ -107,15 +107,15 @@ Zwraca statystyki sformatowanego tekstu.
 
 Parametry:
 
-· html (string) - sformatowany tekst HTML
+* `html (string)` - sformatowany tekst HTML
 
 Zwraca: (object) - obiekt ze statystykami:
 
-· words (number) - liczba słów
+* `words (number)` - liczba słów
 
-· lines (number) - liczba linii
+* `lines (number)` - liczba linii
 
-· hyphens (number) - liczba podziałów wyrazów
+* `hyphens (umber)` - liczba podziałów wyrazów
 
 ## Przykłady użycia
 
@@ -148,13 +148,14 @@ console.log(`Słowa: ${stats.words}, Linie: ${stats.lines}, Łamania: ${stats.hy
 
 ## Technologie
 
-· HTML - struktura strony
-· CSS - style i responsywność
-· JavaScript - logika aplikacji
+* `HTML` - struktura strony
+* `CSS` - style i responsywność
+* `JavaScript` - logika aplikacji
 
 ## Autor
 
-Oliwer Strzałka
+`Oliwer Strzałka`
+
 Projekt stworzony w ramach realizacji projektu na zaliczenie przedmiotu "Technologie internetowe"
 
 ---
